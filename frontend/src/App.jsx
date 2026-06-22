@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+
 // Predefined catalogs default to English
 const dinoDirectory = [
   { id: 'trex', emoji: '🦖', name: 'Tyrannosaurus Rex', spec: 'Apex Predator', query: 'Tell me the history of Tyrannosaurus Rex (T-Rex) briefly.' },
@@ -123,7 +125,7 @@ export default function App() {
 
     try {
       // 2. Fetch from FastAPI
-      const response = await fetch("http://127.0.0.1:8000/api/chat", {
+      const response = await fetch(`${API_BASE_URL}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
