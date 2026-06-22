@@ -1,4 +1,4 @@
-# 🦖 JurassiPedia (Local Development Edition)
+# 🦖 JurassiPedia
 
 JurassiPedia is a production-grade, highly specialized RAG (Retrieval-Augmented Generation) encyclopedia system designed to answer complex questions about dinosaurs and paleontology with real-time performance telemetry and high-fidelity source tracking.
 
