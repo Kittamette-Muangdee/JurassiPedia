@@ -1,11 +1,9 @@
-# 🦖 JurassiPedia
-
-[![Watch the Demo Video](https://img.shields.io/badge/Demo%20Video-Play-red?style=for-the-badge&logo=youtube)](YOUR_DEMO_VIDEO_URL_HERE)
+# 🦖 JurassiPedia (Local Development Edition)
 
 JurassiPedia is a production-grade, highly specialized RAG (Retrieval-Augmented Generation) encyclopedia system designed to answer complex questions about dinosaurs and paleontology with real-time performance telemetry and high-fidelity source tracking.
 
-
 It integrates a **React (Vite) frontend** and a **FastAPI backend** to deliver a premium, terminal-inspired user experience.
+
 
 ---
 
